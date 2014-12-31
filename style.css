@@ -1,0 +1,49 @@
+html { 
+  background: url(nyc.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.full{
+	width: 100%;
+	height: 100%;
+	margin: 200px 0px 0px 0px;
+	background-color: rgba(255, 255, 255, 0.5);
+    vertical-align: middle; 
+}
+
+ul{
+    width: 615px;
+    margin: 20px auto;
+}
+
+.item {
+    position: relative;
+    display: table; 
+    text-align: center;
+    width: 615px;
+    font-family: tahoma;
+    color: #333333;
+    vertical-align: middle; 
+}
+
+.item div.l1{
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align: center; 
+    font-size: 60px;
+}
+
+.item div.l2{
+    display: table-cell; 
+    vertical-align: middle; 
+    text-align: center; 
+}
+
+a{
+    font-size: 20px;
+    font-family: tahoma;
+    color: #333333;
+}
